@@ -1,0 +1,81 @@
+body {
+  background: #e5e5e5;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+}
+.container_search {
+  width: 660px;
+  min-height: 400px;
+  margin: auto;
+  margin-top: 150px;
+  background: #c4c4c4;
+  border-top: 1px solid #c4c4c4;
+}
+
+.container_search input[type='text'] {
+  display: block;
+  padding: 5px;
+  font-size: 34px;
+  margin: 0 auto;
+  margin-top: 70px;
+  border: none;
+  text-align: center;
+}
+
+.container_list {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 144px;
+  margin-right: 144px;
+  background-image: linear-gradient(0deg, #d02ddfd3, #e27beb);
+}
+.container_item {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  margin: auto 0;
+  border: 1px solid black;
+}
+.container_list-attached {
+  list-style: none;
+  position: relative;
+}
+
+.container-button-delete {
+  background: none;
+  margin-right: 10px;
+  margin-left: auto;
+  border: none;
+  font-size: 34px;
+  color: red;
+  align-self: baseline;
+}
+
+.container_list-attached-button {
+  position: absolute;
+  bottom: 10px;
+  left: 340px;
+}
+
+.container_help {
+  display: none;
+  list-style: none;
+  background: #ffff;
+  width: 364px;
+  margin: 0 auto;
+  padding: 4px;
+  cursor: pointer;
+}
+.container_help li {
+  padding: 4px;
+}
+.container_help li:hover {
+  background: #c4c4c4;
+}
